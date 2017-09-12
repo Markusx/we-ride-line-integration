@@ -1,12 +1,7 @@
 var main = function (params) {
 
     var request = require("request");
-var options = {
-  url: 'https://api.github.com/repos/request/request',
-  headers: {
-    'User-Agent': 'request'
-  }
-};
+
     request.post(
         {
             uri:'https://api.line.me/v2/bot/message/push',

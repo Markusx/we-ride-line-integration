@@ -26,7 +26,7 @@ var main = function (params) {
         hello:'world',
         details:params.lineKey,
         stuff:params.userId,
-        hiThere:'what??'
+        hiThere:params
     };
 
 };

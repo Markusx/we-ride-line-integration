@@ -8,7 +8,10 @@ package:
       location: main.js
       runtime: nodejs@6
       inputs:
-        line-key:
+        lineKey:
           type: String
           description: Line access token key.
+        userId:
+          type:String
+          description:userid 
         

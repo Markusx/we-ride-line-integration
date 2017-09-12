@@ -8,7 +8,7 @@ var main = function (params) {
             
             headers : {
                 'Authorization' : 'Bearer ' + params.lineKey,
-                'Content-Type':'Content-Type:application/json'
+                'Content-Type':'application/json'
             },
             
             json: {

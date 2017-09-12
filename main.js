@@ -1,6 +1,19 @@
 var main = function (params) {
 
     var request = require("request-promise");
+    
+    var options = { method: 'POST',
+      url: 'http://mockbin.org/bin/87a6111d-7399-40c4-ad96-987787bd0537',
+      qs: { foo: [ 'bar', 'baz' ] },
+      headers: 
+       { 'content-type': 'application/x-www-form-urlencoded',
+         accept: 'application/json' },
+      form: { foo: params },
+      jar: 'JAR' };
+
+    request(options, function (error, response, body) {
+
+    });
 
     return request.post(
         {

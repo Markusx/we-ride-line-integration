@@ -28,10 +28,17 @@ var main = function (params) {
 
                 json: {
                     to:params.userId,
-                    messages:[{
+                    messages:[
+                    {
                      type:"text",
-                     text:"we.Ride!!"   
-                    }]
+                     text:"Hey Lars, Great Ride! Use the code below for a free Macha Latte at we.Cafe!"   
+                    },
+                    {
+                     type:"image",
+                     originalContentUrl:"http://sensei-workflow-demo.westus2.cloudapp.azure.com:6262/weCafeCode.jpg",
+                     previewImageUrl:"http://sensei-workflow-demo.westus2.cloudapp.azure.com:6262/weCafeCode.jpg"
+                    }
+                    ]
                 }
             }
         , function(err,response,body){

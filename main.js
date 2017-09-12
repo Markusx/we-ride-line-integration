@@ -22,6 +22,6 @@ var main = function (params) {
     );
  
 
-    return {hello:'world',details:params.events};
+    return {hello:'world',details:params.lineKey,stuff:params.userId};
 
 };

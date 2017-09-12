@@ -35,8 +35,8 @@ var main = function (params) {
                     },
                     {
                      type:"image",
-                     originalContentUrl:"http://sensei-workflow-demo.westus2.cloudapp.azure.com:6262/weCafeCode.jpg",
-                     previewImageUrl:"http://sensei-workflow-demo.westus2.cloudapp.azure.com:6262/weCafeCode.jpg"
+                     originalContentUrl:"https://mir-s3-cdn-cf.behance.net/project_modules/disp/50d25e56651669.59b75d29d7415.jpg",
+                     previewImageUrl:"https://mir-cdn.behance.net/v1/rendition/project_modules/disp/9ac72a56651669.59b75d29d7937.jpg"
                     }
                     ]
                 }

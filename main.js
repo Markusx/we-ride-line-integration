@@ -2,7 +2,7 @@ var main = function (params) {
 
     var request = require("request");
 
-    request.post(
+    return request.post(
         {
             uri:'https://api.line.me/v2/bot/message/push',
             
@@ -19,15 +19,8 @@ var main = function (params) {
                 }]
             }
         }
-    );
- 
-
-    return { 
-        hello:'world',
-        details:params.lineKey,
-        stuff:params.userId,
-        hiThere:params,
-        more:'stuff'
-    };
+    , function(err,response,body){
+       return {error:err,resp:response,body:body};  
+    });
 
 };

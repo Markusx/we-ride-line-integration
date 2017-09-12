@@ -2,7 +2,7 @@ var main = function (params) {
 
     var request = require("request");
 
-    return request.post(
+    request.post(
         {
             uri:'https://api.line.me/v2/bot/message/push',
             
